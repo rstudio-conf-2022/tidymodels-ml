@@ -33,7 +33,7 @@ LEARNING_OBJECTIVES
 
 ## Is this course for me?
 
-THREE_QUESTIONS
+This course assumes intermediate R knowledge. If you can use the magrittr pipe and tidyverse functions from packages like readr, dplyr, tidyr, and ggplot2 to read data into R, transform and reshape data, and make a wide variety of graphs, this tutorial is for you. We expect participants to have some exposure to basic statistical concepts, but NOT intermediate or expert familiarity with modeling or machine learning.
 
 ## Prework
 
