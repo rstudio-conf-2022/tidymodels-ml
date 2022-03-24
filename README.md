@@ -29,7 +29,7 @@ This workshop provides an introduction to machine learning with R using the tidy
 
 ## Learning objectives
 
-LEARNING_OBJECTIVES
+[ADD AN ITEMIZED LIST OF LEARNING OBJECTIVES.]
 
 ## Is this course for me?
 
