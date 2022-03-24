@@ -1,4 +1,4 @@
-WORKSHOP_TITLE
+Machine Learning with tidymodels
 ================
 
 ### rstudio::conf 2022
