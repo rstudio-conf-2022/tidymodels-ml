@@ -3,7 +3,7 @@ Machine Learning with tidymodels
 
 ### rstudio::conf 2022
 
-by INSTRUCTOR_NAME
+by Julia Silge + David Robinson
 
 -----
 
