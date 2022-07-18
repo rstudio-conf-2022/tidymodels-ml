@@ -39,9 +39,7 @@ Please join the workshop with a computer that has the following installed (all a
 -   A recent version of RStudio Desktop (RStudio Desktop Open Source License, at least v2022.02), available at <https://www.rstudio.com/download>
 -   The following R packages, which you can install from the R console:
 
-```{r}
-#| eval: false
-#| echo: true
+```r
 install.packages(c("doParallel", "embed", "forcats",
                    "lme4", "ranger", "remotes", "rpart", 
                    "rpart.plot", "stacks", "tidymodels",
