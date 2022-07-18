@@ -3,44 +3,51 @@ Machine Learning with tidymodels
 
 ### rstudio::conf 2022
 
-by Julia Silge + David Robinson
-
------
-
-INSTRUCTIONS FOR INSTRUCTORS: Please insert information about your
-workshop below. Then, add workshop content in the materials folder and
-link to each session’s materials from the schedule below. You are
-welcomed to add more rows to the schedule. We just ask that you take
-breaks at the specified times. Once you are done adding information, you
-can remove these instructions from the README.
+by Julia Silge + Max Kuhn + David Robinson
 
 -----
 
 :spiral_calendar: July 25 and 26, 2022  
 :alarm_clock:     09:00 - 17:00  
 :hotel:           \[ADD ROOM\]  
-:writing_hand:    [rstd.io/conf](http://rstd.io/conf)
+:writing_hand:    [workshops.tidymodels.org](https://workshops.tidymodels.org/)
 
 -----
 
 ## Overview
 
-This workshop provides an introduction to machine learning with R using the tidymodels framework, a collection of packages for modeling and machine learning using tidyverse principles. We will build, evaluate, compare, and tune predictive models. Along the way, we'll learn about key concepts in machine learning including overfitting, resampling, and feature engineering. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like parsnip, rsample, recipes, yardstick, tune, and workflows.
+This workshop provides an introduction to machine learning with R using the [tidymodels](https://www.tidymodels.org/) framework, a collection of packages for modeling and machine learning using [tidyverse](https://www.tidyverse.org/) principles. We will build, evaluate, compare, and tune predictive models. Along the way, we'll learn about key concepts in machine learning including overfitting, resampling, and feature engineering. Learners will gain knowledge about good predictive modeling practices, as well as hands-on experience using tidymodels packages like parsnip, rsample, recipes, yardstick, tune, and workflows.
 
-## Learning objectives
+Find slides and class materials at <https://workshops.tidymodels.org/>.
 
-[ADD AN ITEMIZED LIST OF LEARNING OBJECTIVES.]
 
-## Is this course for me?
+## Is this workshop for me? 
 
-This course assumes intermediate R knowledge. If you can use the magrittr pipe and tidyverse functions from packages like readr, dplyr, tidyr, and ggplot2 to read data into R, transform and reshape data, and make a wide variety of graphs, this tutorial is for you. We expect participants to have some exposure to basic statistical concepts, but NOT intermediate or expert familiarity with modeling or machine learning.
+This course assumes intermediate R knowledge. This workshop is for you if:
 
-## Prework
+-   You can use the magrittr pipe `%>%` and/or native pipe `|>`
+-   You are familiar with functions from dplyr, tidyr, and ggplot2
+-   You can read data into R, transform and reshape data, and make a wide variety of graphs
 
-\[ADD INFORMATION YOU WANT LEARNERS TO HAVE / STEPS THEY WANT THEM TO
-COMPLETE PRIOR TO THE WORKSHOP. THIS COULD BE A LINK TO A THREAD ON
-RSTUDIO COMMUNITY, PACKAGE INSTALL INSTRUCTIONS, HOW TO GET AN
-RSTUDIO.CLOUD ACCOUNT, ETC.\]
+We expect participants to have some exposure to basic statistical concepts, but NOT intermediate or expert familiarity with modeling or machine learning.
+
+## Preparation
+
+Please join the workshop with a computer that has the following installed (all available for free):
+
+-   A recent version of R, available at <https://cran.r-project.org/>
+-   A recent version of RStudio Desktop (RStudio Desktop Open Source License, at least v2022.02), available at <https://www.rstudio.com/download>
+-   The following R packages, which you can install from the R console:
+
+```{r}
+#| eval: false
+#| echo: true
+install.packages(c("doParallel", "embed", "forcats",
+                   "lme4", "ranger", "remotes", "rpart", 
+                   "rpart.plot", "stacks", "tidymodels",
+                   "vetiver", "xgboost"))
+remotes::install_github("topepo/ongoal@v0.0.2")
+```
 
 ## Schedule
 
@@ -72,7 +79,10 @@ RSTUDIO.CLOUD ACCOUNT, ETC.\]
 
 Julia Silge is a data scientist and software engineer at RStudio PBC where she works on open source modeling tools. She is an author, an international keynote speaker, and a real-world practitioner focusing on data analysis and machine learning. Julia loves text analysis, making beautiful charts, and communicating about technical topics with diverse audiences.
 
-David Robinson is ...
+Max Kuhn is a software engineer at RStudio. He is currently working on improving R’s modeling capabilities. He was a Director of Nonclinical Statistics at Pfizer Global R&D in Connecticut. He was applying models in the pharmaceutical and diagnostic industries for over 18 years. Max has a Ph.D. in Biostatistics. Max is the author of a number of R packages for techniques in machine learning and reproducible research and is an Associate Editor for the Journal of Statistical Software. He, and Kjell Johnson, wrote the book _Applied Predictive Modeling_, which won the Ziegel award from the American Statistical Association, which recognizes the best book reviewed in Technometrics in 2015. Their new book, _Feature Engineering and Selection_, was released in 2019.
+
+David Robinson is a data scientist at Heap. His interests include statistics, data analysis, education, and programming in R. David is the co-author with Julia Silge of the tidytext package and the O'Reilly book _Text Mining with R_. David is also the author of the broom and fuzzyjoin packages, and of the e-book _Introduction to Empirical Bayes_. David previously worked as Chief Data Scientist at DataCamp and as a data scientist at Stack Overflow, and received a PhD in Quantitative and Computational Biology from Princeton University.
+
 
 -----
 
